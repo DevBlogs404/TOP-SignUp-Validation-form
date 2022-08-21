@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script defer src="app.js"></script> -->
+    <title>SignUp Form || TOP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="./bg.jpg" alt="image">
+            <div class="logo">
+                <img src="./odin-lined.png" alt="logo">
+                <p>ODIN</p>
+            </div>
+        </div>
+        <div class="form-container">
+                    <div class="form-header">
+                        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</p>
+                        <p>You know you want to.</p>
+                    </div>
+                    <div class="form-body">
+                        <h2>Lets do this!</h2>
+                        <form action="#" method="get">
+                            <div class="left-row">
+                                <div class="form-info">
+                                    <label for="firstName">FIRST NAME</label>
+                                    <input type="text" id="firstName" required>
+                                </div>
+                                <div class="form-info">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" id="email" required>
+                                </div>
+                                <div class="form-info">
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" id="password" minlength="8" maxlength="15"required>
+                                </div>
+                            </div>
+                            <div class="right-row">
+                                <div class="form-info">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" id="lastName">
+                            </div>
+                            <div class="form-info">
+                                <label for="number">PHONE NUMBER</label>
+                                <input type="text" id="number" required>
+                            </div>
+                            <div class="form-info">
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirmPassword" required minlength="8" maxlength="15">
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="form-footer">
+                        <button class="btn" type="submit">Create Account</button>
+                        <p>Already have an account? 
+                          <span>Log in</span></p>
+                    </div>
+        </div>
+    </div>
+</body>
+</html>
