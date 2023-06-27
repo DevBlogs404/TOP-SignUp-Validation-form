@@ -53,6 +53,13 @@ body{
     color: white;
 }
 
+.input.success{
+    border: 2px solid lightgreen;
+}
+.input.error {
+    border: 2px solid tomato;
+}
+
 .form-container{
     flex: 2.5 ;
     display: flex;
@@ -105,18 +112,18 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
-.form-info input{
+.input{
     padding: 7px;
     border-radius: 5px;
     outline: none;
     border: 1px solid var(--input-border-color);
 }
-.form-info input:focus{
+.input:focus{
     border: 2px solid lightblue;
 }
- .error{
+ /* .error{
     border: 2px solid red;
-}
+} */
 .form-footer{
     align-self: flex-start;
     padding: 0 20px;
@@ -169,7 +176,7 @@ body{
         display: none;
     }
     .form-container{
-        background-image: url(./bg.jpg);
+        background-image: url(./assets/bg.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
